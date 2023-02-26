@@ -1,0 +1,193 @@
+/* top navbar part */
+body {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    margin: 0;
+}
+
+
+.left img{
+    width: 100px;
+    height: 95px;
+}
+.left{
+  margin-top: -30px;
+  margin-top: 0px;
+}
+
+#top{
+    /* border: 2px solid red; */
+    display: flex;
+    
+}
+.center{
+    margin: auto;
+    font-size: 26px;
+    font-family:serif;
+    margin-top: -10px;
+
+}
+
+.right{
+    /* border:2px solid red ; */
+    /* width: 400px; */
+   
+}
+.right img{
+    width: 80px;
+    height: 80px;
+    margin-left: 60px;
+}
+.navbar {
+    overflow: hidden;
+    /* background-color: #333;  */
+    /* position :fixed; */
+    border-bottom: 3px solid black;
+    margin-top: -31px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+.subnav .subnavbtn {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    font-weight: 600;
+    /* color: white; */
+    padding: 14px 16px;
+    background-color: inherit;
+    /* font-family: inherit; */
+    margin: 0;
+}
+.navbar a:hover, .subnav:hover .subnavbtn {
+    background-color:white;
+    text-decoration: underline;
+   
+}
+.navbar:hover{
+    background-color: white;
+}
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color:whitesmoke;
+    width: 100%;
+    z-index: 1;
+}
+.subnav-content a {
+    float: none;
+    color: black;
+    /* font-weight: 900; */
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.subnav-content li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+.subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  
+}
+.subnav:hover .subnav-content {
+    display: block;
+}
+.subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+}
+/* top navigation part css */
+video {
+    object-fit: fill;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    top: 95px;
+    
+}
+/* bottm part  */
+.bottom{
+    /* border: 2px solid black; */
+    margin-top: 820px;
+    display: flex;
+}
+.leftb{
+    /* border: 2px solid red; */
+    width: 50%;
+}
+.rightb{
+    /* border: 2px solid blue; */
+    width: 50%;
+}
+.leftb img{
+    margin-left: 30px;
+    width: 90%;
+    height: 90%;
+}
+.feature{
+    margin-top: 50px; 
+    margin-left: 30px; 
+}
+/* BLACK OWNED AND FOUNDED BRANDS */
+h2{
+    margin-left: 25px;
+    margin-top: 80px;
+    font-weight: 900;
+}
+.brands{
+    /* border: 2px solid black; */
+    display:flex;
+}
+.pic{
+    /* border: 2px solid red; */
+    width: 210px;
+    margin: auto;
+    text-align: center;
+   
+}
+.pic img{
+    width: 100%;
+}
+/* WHAT WE WANT NOW  */
+/* No css */
+#foot{
+    /* border: 2px solid black; */
+    display: flex;
+    background-color:#c0c9cf;
+    margin-top: 50px;
+   
+}
+.f{
+    margin-top:5px ;
+    margin: auto;
+    
+}
+.f img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+/* last */
+.last{
+    text-align: center;
+    margin-top :25px; ;
+}
+.last p{
+    font-family:  Garamond, serif;
+}

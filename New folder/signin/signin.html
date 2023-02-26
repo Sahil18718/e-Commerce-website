@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          /* --------------------------nav bar---------------------------------------------- */
+
+nav{
+    border: 1px solid aliceblue;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+nav>div:first-child{
+    width:200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    position:relative;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+nav>div{
+   
+    /* border: 1px solid blue; */
+    width: 200px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    height: max-content;
+}
+
+nav>div>img{
+    width: 195px;
+    height: 190px;
+    margin-left: 2px;
+}
+
+/* -----------------------------------nav ends--------------------------------------- */
+body{
+             margin: 0px;
+    background-color: rgb(224, 222, 222);
+        } 
+        #cont{
+            width: 500px;
+           padding-top: 20px;
+           padding-bottom: 20px;
+            text-align: center;
+            background-color: white;
+            height: 300px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            margin: auto;
+        }
+        #cont>div{
+            display:grid;
+            grid-template-columns: repeat(1,350px);
+            gap: 30px;
+            margin: auto;
+            width: max-content;
+            
+            
+        }
+        #cont>div input:not(#sub){
+            height: 40px;
+            padding-left: 20px;
+        }
+        div #sub{
+        background-color:black;
+        color: white;
+        width: 200px;
+        margin: auto;
+        border: 1px solid rgb(56, 56, 56);
+            height: 50px;
+         font-weight: 400;
+         font-size: large;   
+       }  
+       #sub:hover{
+        background-color: teal;
+        color: aliceblue;
+       } 
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+         <img src="WhatsApp Image 2023-02-21 at 14.19.15.jpg" alt="">
+        </div>
+        
+     </nav>
+    <div id="cont">
+    <h1>Login</h1>
+    <div>
+        
+        <input type="email" name="E-mail" id="mail" placeholder="E-mail">
+        <input type="password" name="password" id="pass" placeholder="Password">
+       <input type="submit"  value="Login" id="sub">
+       
+    </div>
+   
+   </div>
+   
+  
+    
+</body>
+</html>
+<script src="login.js"></script>
